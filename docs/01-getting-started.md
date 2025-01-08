@@ -1,6 +1,6 @@
 # Getting Started
 
-![logo](https://raw.githubusercontent.com/balenalabs/balena-sound/master/docs/images/balenaSound-logo.png)
+![logo](https://raw.githubusercontent.com/iotsound/iotsound/master/docs/images/balenaSound-logo.png)
 
 Getting started with balenaSound is as simple as deploying it to a [balenaCloud](https://balena.io/cloud) fleet; no additional configuration is required (unless you're using a DAC HAT).
 We've outlined the installation steps below. If you want a step-by-step tutorial on how to get balenaSound up and running, feel free to check these blog posts:
@@ -10,7 +10,7 @@ We've outlined the installation steps below. If you want a step-by-step tutorial
 
 ## Hardware required
 
-![hardware](https://raw.githubusercontent.com/balenalabs/balena-sound/master/docs/images/hardware.jpeg)
+![hardware](https://raw.githubusercontent.com/iotsound/iotsound/master/docs/images/hardware.jpeg)
 
 - Any device from our [supported devices list](device-support#recommended). For the best experience, we recommend using a Raspberry Pi 3B+ or 4B.
 - An SD Card! We recommend the Sandisk Extreme Pro series. 8GB should be plenty enough for this project.
@@ -32,11 +32,11 @@ One-click deploy is the easiest way to get started with balenaSound as it allows
 
 Click this button to go straight to balenaCloud fleet creation, where balenaSound app will be pre-loaded:
 
-[![balena deploy button](https://balena.io/deploy.svg)](https://dashboard.balena-cloud.com/deploy?repoUrl=https://github.com/balena-io-experimental/balena-sound&defaultDeviceType=raspberry-pi)
+[![balena deploy button](https://balena.io/deploy.svg)](https://dashboard.balena-cloud.com/deploy?repoUrl=https://github.com/iotsound/iotsound&defaultDeviceType=raspberry-pi)
 
 ### Provision your device
 
-![sdcard](https://raw.githubusercontent.com/balenalabs/balena-sound/master/docs/images/sdcard.gif)
+![sdcard](https://raw.githubusercontent.com/iotsound/iotsound/master/docs/images/sdcard.gif)
 
 Once your fleet has been created you'll need to add a device to it:
 
@@ -64,7 +64,7 @@ For example, if you don't plan on using the Spotify integration, you can edit th
 
 - Install the [balena CLI tools](https://github.com/balena-io/balena-cli/blob/master/INSTALL.md)
 - Login with `balena login`
-- Download this [app](https://github.com/balenalabs/balena-sound/) and from the project directory run `balena push <fleetName>` where `<fleetName>` is the name you gave your balenaCloud fleet in the first step.
+- Download this [app](https://github.com/iotsound/iotsound/) and from the project directory run `balena push <fleetName>` where `<fleetName>` is the name you gave your balenaCloud fleet in the first step.
 
 ## Upgrade
 
@@ -74,7 +74,7 @@ To deploy bug fixes or new features to your balenaSound application, the process
 
 - Install the [balena CLI tools](https://github.com/balena-io/balena-cli/blob/master/INSTALL.md)
 - Login with `balena login`
-- Download this [project](https://github.com/balenalabs/balena-sound/) and from the project directory run `balena push <appName>` where `<appName>` is the name you gave your balenaCloud application during the provision step above.
+- Download this [project](https://github.com/iotsound/iotsound/) and from the project directory run `balena push <appName>` where `<appName>` is the name you gave your balenaCloud application during the provision step above.
 
 > **Note:** If you receive the message "Application is ambiguous" during the push, then you will need to specify your balenaCloud username along with the `<appName>`, ie. `balena push <username>/<appName>`
 
@@ -82,7 +82,7 @@ To deploy bug fixes or new features to your balenaSound application, the process
 
 To update your application via one-click deploy just click the Deploy with balena button below. Make sure you select your already existing balenaSound application so you don't create a new one!
 
-[![balena deploy button](https://balena.io/deploy.svg)](https://dashboard.balena-cloud.com/deploy?repoUrl=https://github.com/balenalabs/balena-sound&defaultDeviceType=raspberry-pi)
+[![balena deploy button](https://balena.io/deploy.svg)](https://dashboard.balena-cloud.com/deploy?repoUrl=https://github.com/iotsound/iotsound&defaultDeviceType=raspberry-pi)
 
 ## Having trouble?
 
@@ -90,4 +90,4 @@ If you are running into issues getting your balenaSound app running, please try 
 
 1. Check the [support and troubleshooting guide](support) for common issues and how to resolve them.
 2. Post in the [balenaSound forum](https://forums.balena.io/c/balenalabs/balenasound/85) for help from our growing community.
-3. Create an issue on the [balenaSound GitHub project](https://github.com/balena-io-experimental/balena-sound/issues/new/choose) if you find your issue may be a problem with balenaSound.
+3. Create an issue on the [balenaSound GitHub project](https://github.com/iotsound/iotsound/issues/new/choose) if you find your issue may be a problem with balenaSound.

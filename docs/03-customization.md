@@ -9,7 +9,7 @@ Some features of balenaSound can be configured by using variables. Depending on 
 | Device variable             | specific device, all services     | navigate to dashboard -> your fleet -> your device -> `Device variables` -> Select `All services`    |
 | Device service variable     | specific device, specific service | navigate to dashboard -> your fleet -> your device -> Select `All services` -> Select target service |
 
-![Setting the device name](https://raw.githubusercontent.com/balenalabs/balena-sound/master/docs/images/env-vars.png)
+![Setting the device name](https://raw.githubusercontent.com/iotsound/iotsound/master/docs/images/env-vars.png)
 
 You can read more about variables [here](https://www.balena.io/docs/learn/manage/serv-vars/#fleet-environment-and-service-variables).
 
