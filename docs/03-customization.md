@@ -1,6 +1,6 @@
 # Customization
 
-Some features of balenaSound can be configured by using variables. Depending on how you set them they will apply to all your devices, a specific device or a specific service. Regardless of what you want, they can be set using the balena dashboard:
+Some features of IoTSound can be configured by using variables. Depending on how you set them they will apply to all your devices, a specific device or a specific service. Regardless of what you want, they can be set using the balena dashboard:
 
 | Variable type               | Scope                             | Instructions                                                                                         |
 | --------------------------- | --------------------------------- | ---------------------------------------------------------------------------------------------------- |
@@ -15,7 +15,7 @@ You can read more about variables [here](https://www.balena.io/docs/learn/manage
 
 ## General
 
-The following variables apply to balenaSound in general, modifying its behavior across the board:
+The following variables apply to IoTSound in general, modifying its behavior across the board:
 
 | Variable                                  | Description                                                                                                                                                                                 | Options                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Default                                                                                                                                         |
 | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------- |
