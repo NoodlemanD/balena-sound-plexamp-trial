@@ -2,8 +2,8 @@
 
 ![logo](https://raw.githubusercontent.com/iotsound/iotsound/master/docs/images/balenaSound-logo.png)
 
-Getting started with balenaSound is as simple as deploying it to a [balenaCloud](https://balena.io/cloud) fleet; no additional configuration is required (unless you're using a DAC HAT).
-We've outlined the installation steps below. If you want a step-by-step tutorial on how to get balenaSound up and running, feel free to check these blog posts:
+Getting started with IoTSound is as simple as deploying it to a [balenaCloud](https://balena.io/cloud) fleet; no additional configuration is required (unless you're using a DAC HAT).
+We've outlined the installation steps below. If you want a step-by-step tutorial on how to get IoTSound up and running, feel free to check these blog posts:
 
 - [Turn your old speakers or Hi-Fi into Bluetooth, Airplay2 and Spotify receivers with a Raspberry Pi and this step-by-step guide](https://www.balena.io/blog/turn-your-old-speakers-or-hi-fi-into-bluetooth-receivers-using-only-a-raspberry-pi/)
 - [Build your own multi-room audio system with Bluetooth, Airplay2, and Spotify using Raspberry Pis](https://www.balena.io/blog/diy-raspberry-pi-multi-room-audio-system/)
@@ -30,7 +30,7 @@ One-click deploy is the easiest way to get started with balenaSound as it allows
 
 ### Deploy with balena
 
-Click this button to go straight to balenaCloud fleet creation, where balenaSound app will be pre-loaded:
+Click this button to go straight to balenaCloud fleet creation, where IoTSound app will be pre-loaded:
 
 [![balena deploy button](https://balena.io/deploy.svg)](https://dashboard.balena-cloud.com/deploy?repoUrl=https://github.com/iotsound/iotsound&defaultDeviceType=raspberry-pi)
 
@@ -44,7 +44,7 @@ Once your fleet has been created you'll need to add a device to it:
 2. Download the OS and flash it to your SD card with [balenaEtcher](https://balena.io/etcher)
 3. Power up your device and check it's online in the dashboard!
 
-The balenaSound app will start downloading as soon as your device appears in the dashboard.
+The IoTSound app will start downloading as soon as your device appears in the dashboard.
 
 ## CLI deploy
 
@@ -70,7 +70,7 @@ For example, if you don't plan on using the Spotify integration, you can edit th
 
 ### Upgrading via CLI
 
-To deploy bug fixes or new features to your balenaSound application, the process is the same as a deployment:
+To deploy bug fixes or new features to your IoTSound application, the process is the same as a deployment:
 
 - Install the [balena CLI tools](https://github.com/balena-io/balena-cli/blob/master/INSTALL.md)
 - Login with `balena login`
@@ -80,7 +80,7 @@ To deploy bug fixes or new features to your balenaSound application, the process
 
 ### Upgrading via one-click
 
-To update your application via one-click deploy just click the Deploy with balena button below. Make sure you select your already existing balenaSound application so you don't create a new one!
+To update your application via one-click deploy just click the Deploy with balena button below. Make sure you select your already existing IoTSound application so you don't create a new one!
 
 [![balena deploy button](https://balena.io/deploy.svg)](https://dashboard.balena-cloud.com/deploy?repoUrl=https://github.com/iotsound/iotsound&defaultDeviceType=raspberry-pi)
 
@@ -89,5 +89,4 @@ To update your application via one-click deploy just click the Deploy with balen
 If you are running into issues getting your balenaSound app running, please try the following:
 
 1. Check the [support and troubleshooting guide](support) for common issues and how to resolve them.
-2. Post in the [balenaSound forum](https://forums.balena.io/c/balenalabs/balenasound/85) for help from our growing community.
-3. Create an issue on the [balenaSound GitHub project](https://github.com/iotsound/iotsound/issues/new/choose) if you find your issue may be a problem with balenaSound.
+2. Create an issue on the [IoTSound GitHub project](https://github.com/iotsound/iotsound/issues/new/choose) if you find your issue may be a problem with balenaSound.
