@@ -14,8 +14,8 @@ RUN echo "deb http://archive.raspbian.org/raspbian stretch main" >> /etc/apt/sou
     #libflac is nodig, dit is namelijk de bestandsvorm van meeste hoge kwaliteit audiobestanden die ik heb.
     && mkdir /usr/pi \
     && cd /usr/pi \
-    curl https://plexamp.plex.tv/headless/Plexamp-Linux-headless-v4.10.0.tar.bz2
-    tar -xvf plexamp.tar.bz2
+    && curl https://plexamp.plex.tv/headless/Plexamp-Linux-headless-v4.10.0.tar.bz2
+    && tar -xvf plexamp.tar.bz2
 
 COPY start.sh /usr/src/
 
