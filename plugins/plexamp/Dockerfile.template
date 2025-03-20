@@ -9,7 +9,7 @@ RUN curl -sL https://raw.githubusercontent.com/balenablocks/audio/master/scripts
 
 #Hier ga ik de dependencies installeren
 RUN echo "deb http://archive.raspbian.org/raspbian stretch main" >> /etc/apt/sources.list 
-RUN apt update 
+RUN apt update -y
 RUN install_packages multiarch-support libavformat57 git libportaudio2* libflac++6v5* libavahi-common3 libavahi-client3 alsa-utils 
     #libflac is nodig, dit is namelijk de bestandsvorm van meeste hoge kwaliteit audiobestanden die ik heb.
 RUN mkdir /usr/pi 
