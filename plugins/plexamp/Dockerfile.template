@@ -10,7 +10,7 @@ RUN ping -c 3 google.com
 RUN cat /etc/resolv.conf
 
 #Hier ga ik de dependencies installeren
-RUN package_install bzip2
+RUN package_install lbzip2
     #libflac is nodig, dit is namelijk de bestandsvorm van meeste hoge kwaliteit audiobestanden die ik heb.
 RUN mkdir /usr/pi 
 RUN cd /usr/pi 
