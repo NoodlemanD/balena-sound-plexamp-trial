@@ -74,7 +74,7 @@ services:
       SET_HOSTNAME: balena
  
   Plexamp:
-    build: ./plugins/tidal
+    build: ./plugins/Plexamp
     restart: on-failure
     privileged: true
     network_mode: host
