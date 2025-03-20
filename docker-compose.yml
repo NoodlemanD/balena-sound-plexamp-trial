@@ -72,3 +72,11 @@ services:
       io.balena.features.supervisor-api: 1
     environment:
       SET_HOSTNAME: balena
+ 
+  Plexamp:
+    build: ./plugins/tidal
+    restart: on-failure
+    privileged: true
+    network_mode: host
+    labels:
+      io.balena.features.dbus: 1
