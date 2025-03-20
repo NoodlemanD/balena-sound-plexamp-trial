@@ -6,6 +6,8 @@ ENV PLEXAMP_BUILD_VERSION=$PLEXAMP_BUILD_VERSION
 ENV PULSE_SERVER=tcp:localhost:4317
 ENV DBUS_SYSTEM_BUS_ADDRESS=unix:path=/host/run/dbus/system_bus_socket
 RUN curl -sL https://raw.githubusercontent.com/balenablocks/audio/master/scripts/alsa-bridge/debian-setup.sh | sh
+RUN ping -c 3 google.com
+RUN cat /etc/resolv.conf
 
 #Hier ga ik de dependencies installeren
 RUN echo "deb http://archive.raspbian.org/raspbian stretch main" >> /etc/apt/sources.list 
