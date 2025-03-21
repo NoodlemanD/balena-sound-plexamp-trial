@@ -18,7 +18,7 @@ RUN curl -k -O -L https://plexamp.plex.tv/headless/Plexamp-Linux-headless-v4.10.
 RUN ls -l /usr/pi/
 RUN mkdir /usr/pi/plexamp
 RUN tar -xvf Plexamp-Linux-headless-v4.10.0.tar.bz2 --directory /usr/pi/plexamp/
-RUN ls
+RUN ls /usr/pi/plexamp/
 
 COPY start.sh /usr/src/
 
