@@ -82,3 +82,19 @@ services:
       - 32500:32500
     labels:
       io.balena.features.dbus: 1
+  
+  Plexamp2:
+    build: ./plugins/plexamp2
+    restart: no
+    privileged: true
+    network_mode: host
+    volumes:
+      - /data/docker/plexamp/:/home/plexamp:rw
+      - /run:/run:rw
+    restart: unless-stopped
+    privileged: true
+    ports:
+     - 32500:32500
+    labels:
+      io.balena.features.dbus: 1
+
