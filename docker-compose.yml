@@ -79,7 +79,6 @@ services:
     privileged: true
     network_mode: host
     ports:
-      - "32500:32500"
-      - "32400:32400"
+      - 32500:32500
     labels:
       io.balena.features.dbus: 1
