@@ -4,4 +4,4 @@ if [[ -n "$SOUND_DISABLE_PLEXAMP" ]]; then
 fi
 
 echo "Starting Plexamp plugin..."
-ExecStart=node /home/pi/plexamp/js/index.js
+exec node /usr/pi/plexamp/js/index.js
