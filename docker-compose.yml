@@ -89,7 +89,6 @@ services:
     volumes:
       - /data/docker/plexamp/:/home/plexamp:rw
       - /run:/run:rw
-    privileged: true
     ports:
      - 32500:32500
     labels:
