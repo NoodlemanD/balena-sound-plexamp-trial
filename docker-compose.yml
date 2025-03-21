@@ -87,7 +87,7 @@ services:
     privileged: true
     network_mode: host
     volumes:
-      - /data/docker/plexamp/:/home/plexamp:rw
+      - /data/docker/plexamp2/:/home/plexamp:rw
       - /run:/run:rw
     restart: unless-stopped
     privileged: true
