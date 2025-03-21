@@ -87,8 +87,8 @@ services:
     privileged: true
     network_mode: host
     volumes:
-      - /data/docker/plexamp/:/home/plexamp:rw
-      - /run:/run:rw
+      - plexamp_data:/home/plexamp:rw
+      - plexamp_run:/run:rw
     ports:
      - 32500:32500
     labels:
