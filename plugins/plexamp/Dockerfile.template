@@ -1,4 +1,4 @@
-FROM balenalib/%%BALENA_MACHINE_NAME%%-debian-node:20.12-buster
+FROM balenalib/%%BALENA_MACHINE_NAME%%-debian-node:20.12-bullseye
 
 # Audio setup Voor de connectie tussen de Host en de container
 ARG PLEXAMP_BUILD_VERSION
