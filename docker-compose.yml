@@ -75,7 +75,7 @@ services:
  
   Plexamp:
     build: ./plugins/plexamp
-    restart: on-failure
+    restart: no
     privileged: true
     network_mode: host
     labels:
